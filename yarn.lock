@@ -1063,6 +1063,18 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@bitciswap/sdk-core@^4":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@bitciswap/sdk-core/-/sdk-core-4.0.3.tgz#19ca7bb768b2d5ee3a15a740a26948e7927602e7"
+  integrity sha512-420Gz1UXzyXq2aMa9z4M/9DdNMEko460KcwHGP7ry8ZfNlYFUbLopVx7+nymzpdnVkpMCGZQSCw81wNiiZyNew==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
@@ -2730,18 +2742,6 @@
   dependencies:
     "@typescript-eslint/types" "5.42.1"
     eslint-visitor-keys "^3.3.0"
-
-"@uniswap/sdk-core@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-3.1.0.tgz#595b6396763fd2553531423c8eec83bfb4840a27"
-  integrity sha512-YRrp6vYAbYmi3uDXQGkvj2eT8BMpNnUdCFb8GifDG0Ei+ohIpC4RNAB+5/ru3zR2Byhx8VahGrSKuvdd6BVMyA==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
 
 "@walletconnect/browser-utils@^1.8.0":
   version "1.8.0"
